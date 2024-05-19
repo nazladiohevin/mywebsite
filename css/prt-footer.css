@@ -1,0 +1,42 @@
+footer {
+  padding: calc(.5rem + 6vw) calc(.5rem + 5vw);
+  margin-bottom: 58px;
+  box-shadow: 0 -15px 50px rgba(0,0,0, .16);
+}
+
+footer h3 {
+  font-size: calc(1.2rem + 1vw);
+}
+
+footer p, footer b {
+  font-family: "Roboto", sans-serif;
+}
+
+footer i {
+  font-size: calc(1.6rem + 1vw);
+  color: #575670 !important;
+} 
+
+footer a b:hover{
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) {
+  footer {
+    padding: calc(.5rem + 6vw) calc(.5rem + 9vw);
+    margin-bottom: 0;
+  }  
+}
+
+@media only screen and (min-width: 992px) {
+  footer {
+    padding: calc(.5rem + 4vw) calc(.5rem + 9vw);
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  footer {
+    padding: calc(.5rem + 3vw) calc(.5rem + 6vw);
+  }
+}
+

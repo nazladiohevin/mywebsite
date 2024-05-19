@@ -1,0 +1,84 @@
+main {
+  height: 100vh;
+  padding: 70px calc(3% + 1.2vw) !important;
+}
+
+hr {
+  border: 1.8px solid #F79748;
+  opacity: 1;
+  width: calc(70px + 1.5vw);
+  margin: 0!important;
+}
+
+.card {
+  border-radius: calc(5px + 1vw) calc(5px + 1vw) calc(2px + .8vw) calc(2px + .8vw) !important;
+  transition: 300ms;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-body img {
+  width: 30%;
+}
+
+.card-body a h5 {
+  color: #2D2C4C;
+}
+
+.card-body a h5 i {
+  color: #575670;
+}
+
+.card-body a:hover {
+  text-decoration: underline;
+  
+}
+
+.card-title {
+  font-size: calc(.8rem + .9vw) !important;
+}
+
+@media only screen and (min-width: 576px) {
+  .card-body img {
+    width: calc(10% + 7vw)
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    padding: 70px calc(3% + 3vw) !important;
+  }
+
+  hr {
+    border-width: 2.5px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .card-body img {
+    width: calc(10% + 5vw)
+  }
+
+  .card-title {
+    font-size: calc(.8rem + .7vw) !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .card-body img {
+    width: calc(10% + 4vw)
+  }
+
+  main {
+    padding: 70px calc(4% + 8vw) !important;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  main {
+    padding: 70px calc(4% + 10vw) !important;
+  }
+}
